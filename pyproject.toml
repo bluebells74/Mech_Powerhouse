@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mech_powerhouse"
+version = "0.0.1"
+authors = [
+  { name="Amruta Patil", email="imwhatthepoetscall@gmail.com" },
+]
+description = "A Python engineering library for mechanical design and analysis"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bluebells74/Mech_Powerhouse"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mech_powerhouse*"]

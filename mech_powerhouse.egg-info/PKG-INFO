@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: mech_powerhouse
+Version: 0.0.1
+Summary: A Python engineering library for mechanical design and analysis
+Author-email: Amruta Patil <imwhatthepoetscall@gmail.com>
+Project-URL: Homepage, https://github.com/bluebells74/Mech_Powerhouse
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
